@@ -1335,3 +1335,18 @@ ul.team li span.hover {
 	animation-iteration-count:infinite;
 	animation-timing-function:linear;
 }
+
+/* 8 March 2014 */
+
+.march8 {
+	position:absolute;
+	left:50%;
+	top:302px;
+	margin-left:-34px;
+}
+.march8n {
+	position:absolute;
+	left:50%;
+	top:232px;
+	margin-left:-69px;
+}

@@ -64,6 +64,16 @@
 			$(this).find('.hover').fadeOut(250);
 		}
 	);
+	
+	$('.hoverarea').hover(
+		function() {
+			$('.march8n').addClass('animate');
+		},
+		function() {
+			$('.march8n').removeClass('animate');
+		}
+	);
+	/*
 	var count = 0;
 	$('.int1').css({'opacity': '1'});
 	$('.hoverarea').hover(
@@ -94,7 +104,7 @@
 		function() {
 			$('.int1.dynamic, .int2.dynamic, .int3.dynamic, .int4.dynamic').removeClass('animate');
 		}
-	);
+	);*/
 	$('input, textarea').each(function () {
 		$(this).data('holder',$(this).attr('placeholder'));
 		$(this).focusin(function(){
