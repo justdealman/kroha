@@ -141,4 +141,10 @@
 	);
 	$('.address li:first-child').css({'margin-right': '56px'});
 	$('.address li:last-child, .list > li:last-child, .footer .map li:last-child').css({'float': 'right'});
+	var max = -1;
+	$('.video ul li div').each(function() {
+		var h = $(this).height(); 
+		max = h > max ? h : max;
+	});
+	$('.video ul li div').height(max-23);
 });

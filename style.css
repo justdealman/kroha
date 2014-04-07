@@ -1350,3 +1350,79 @@ ul.team li span.hover {
 	top:232px;
 	margin-left:-69px;
 }
+
+/* Video */
+
+.video {
+	position:relative;
+	width:890px;
+	padding:0 0 0 70px;
+	margin:0 auto 33px;
+}
+.video h2 {
+	color:#04acbb;
+	font-size:18px;
+	line-height:22px;
+	font-weight:normal;
+    font-family:'Gnuolane', sans-serif;
+	text-transform:uppercase;
+	padding:0;
+	margin:0 0 24px;
+}
+.video ul {
+	padding:0 0 0 1px;
+	margin:0 0 21px;
+	background:url('./images/video_line.png') repeat-y left;
+}
+.video ul li {
+	display:inline-block;
+	width:220px;
+	padding:0 11px 0 42px;
+	margin:0 -3px 0 0;
+	background:url('./images/video_line.png') repeat-y right;
+}
+.video ul li div {
+	margin:-1px 0 17px;
+}
+.video ul li h6 {
+	color:#605f5f;
+	font-size:12px;
+	line-height:15px;
+	font-weight:normal;
+	font-style:italic;
+	padding:0;
+	margin:0;
+}
+.video ul li h4 {
+	color:#333333;
+	font-size:12px;
+	line-height:15px;
+	font-weight:normal;
+	padding:0;
+	margin:0;
+}
+.video ul li h3 {
+	color:#00abba;
+	font-size:16px;
+	line-height:20px;
+	padding:0;
+	margin:10px 0 0;
+}
+.video ul li h3 a {
+	color:#00abba;
+	text-decoration:none;
+}
+.video ul li h3 a:hover {
+	text-decoration:underline;
+}
+.video h5 {
+	font-size:12px;
+	line-height:15px;
+	font-weight:normal;
+	text-align:right;
+	padding:0;
+	margin:0 70px 0 0;
+}
+.video h5 a {
+	color:#d30057;
+}
