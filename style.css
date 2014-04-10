@@ -1370,15 +1370,16 @@ ul.team li span.hover {
 	margin:0 0 24px;
 }
 .video ul {
+	clear:both;
+	overflow:hidden;
 	padding:0 0 0 1px;
 	margin:0 0 21px;
 	background:url('./images/video_line.png') repeat-y left;
 }
 .video ul li {
-	display:inline-block;
+	float:left;
 	width:220px;
 	padding:0 11px 0 42px;
-	margin:0 -3px 0 0;
 	background:url('./images/video_line.png') repeat-y right;
 }
 .video ul li div {
