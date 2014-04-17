@@ -142,9 +142,25 @@
 	$('.address li:first-child').css({'margin-right': '56px'});
 	$('.address li:last-child, .list > li:last-child, .footer .map li:last-child').css({'float': 'right'});
 	var max = -1;
-	$('.video ul li div').each(function() {
+	$('.video ul li div.information').each(function() {
 		var h = $(this).height(); 
 		max = h > max ? h : max;
 	});
-	$('.video ul li div').height(max-23);
+	$('.video ul li div.information').height(max-23);
+	$('.video ul li').hover(
+		function() {
+			$(this).find('.iframe img').stop(true, true).fadeIn(250);
+		},
+		function() {
+			$(this).find('.iframe img').stop(true, true).fadeOut(250);
+		}
+	);
+	$('.video').hover(
+		function() {
+			$(this).find('h2 span img').addClass('animate');
+		},
+		function() {
+			$(this).find('h2 span img').removeClass('animate');
+		}
+	);
 });

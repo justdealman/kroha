@@ -1162,7 +1162,7 @@ ul.team li h5 {
 	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
 	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
 	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
-	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+	100% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
 }
 @-moz-keyframes tv {
 	0% { -moz-transform: translate(2px, 1px) rotate(0deg); }
@@ -1175,7 +1175,7 @@ ul.team li h5 {
 	70% { -moz-transform: translate(2px, 1px) rotate(-1deg); }
 	80% { -moz-transform: translate(-1px, -1px) rotate(1deg); }
 	90% { -moz-transform: translate(2px, 2px) rotate(0deg); }
-	100% { -moz-transform: translate(1px, -2px) rotate(-1deg); }
+	100% { -moz-transform: translate(2px, 1px) rotate(0deg); }
 }
 @-ms-keyframes tv {
 	0% { -ms-transform: translate(2px, 1px) rotate(0deg); }
@@ -1188,7 +1188,7 @@ ul.team li h5 {
 	70% { -ms-transform: translate(2px, 1px) rotate(-1deg); }
 	80% { -ms-transform: translate(-1px, -1px) rotate(1deg); }
 	90% { -ms-transform: translate(2px, 2px) rotate(0deg); }
-	100% { -ms-transform: translate(1px, -2px) rotate(-1deg); }
+	100% { -ms-transform: translate(2px, 1px) rotate(0deg); }
 }
 @-o-keyframes tv {
 	0% { -o-transform: translate(2px, 1px) rotate(0deg); }
@@ -1201,7 +1201,7 @@ ul.team li h5 {
 	70% { -o-transform: translate(2px, 1px) rotate(-1deg); }
 	80% { -o-transform: translate(-1px, -1px) rotate(1deg); }
 	90% { -o-transform: translate(2px, 2px) rotate(0deg); }
-	100% { -o-transform: translate(1px, -2px) rotate(-1deg); }
+	100% { -o-transform: translate(2px, 1px) rotate(0deg); }
 }
 @keyframes tv {
 	0% { transform: translate(2px, 1px) rotate(0deg); }
@@ -1214,7 +1214,7 @@ ul.team li h5 {
 	70% { transform: translate(2px, 1px) rotate(-1deg); }
 	80% { transform: translate(-1px, -1px) rotate(1deg); }
 	90% { transform: translate(2px, 2px) rotate(0deg); }
-	100% { transform: translate(1px, -2px) rotate(-1deg); }
+	100% { transform: translate(2px, 1px) rotate(0deg); }
 }
 @-webkit-keyframes icons {
 	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
@@ -1227,7 +1227,7 @@ ul.team li h5 {
 	70% { -webkit-transform: translate(2px, 1px) rotate(-5deg); }
 	80% { -webkit-transform: translate(-1px, -1px) rotate(5deg); }
 	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
-	100% { -webkit-transform: translate(1px, -2px) rotate(-5deg); }
+	100% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
 }
 @-moz-keyframes icons {
 	0% { -moz-transform: translate(2px, 1px) rotate(0deg); }
@@ -1240,7 +1240,7 @@ ul.team li h5 {
 	70% { -moz-transform: translate(2px, 1px) rotate(-5deg); }
 	80% { -moz-transform: translate(-1px, -1px) rotate(5deg); }
 	90% { -moz-transform: translate(2px, 2px) rotate(0deg); }
-	100% { -moz-transform: translate(1px, -2px) rotate(-5deg); }
+	100% { -moz-transform: translate(2px, 1px) rotate(0deg); }
 }
 @-ms-keyframes icons {
 	0% { -ms-transform: translate(2px, 1px) rotate(0deg); }
@@ -1253,7 +1253,7 @@ ul.team li h5 {
 	70% { -ms-transform: translate(2px, 1px) rotate(-5deg); }
 	80% { -ms-transform: translate(-1px, -1px) rotate(5deg); }
 	90% { -ms-transform: translate(2px, 2px) rotate(0deg); }
-	100% { -ms-transform: translate(1px, -2px) rotate(-5deg); }
+	100% { -ms-transform: translate(2px, 1px) rotate(0deg); }
 }
 @-o-keyframes icons {
 	0% { -o-transform: translate(2px, 1px) rotate(0deg); }
@@ -1266,7 +1266,7 @@ ul.team li h5 {
 	70% { -o-transform: translate(2px, 1px) rotate(-5deg); }
 	80% { -o-transform: translate(-1px, -1px) rotate(5deg); }
 	90% { -o-transform: translate(2px, 2px) rotate(0deg); }
-	100% { -o-transform: translate(1px, -2px) rotate(-5deg); }
+	100% { -o-transform: translate(2px, 1px) rotate(0deg); }
 }
 @keyframes icons {
 	0% { transform: translate(2px, 1px) rotate(0deg); }
@@ -1279,7 +1279,7 @@ ul.team li h5 {
 	70% { transform: translate(2px, 1px) rotate(-5deg); }
 	80% { transform: translate(-1px, -1px) rotate(5deg); }
 	90% { transform: translate(2px, 2px) rotate(0deg); }
-	100% { transform: translate(1px, -2px) rotate(-5deg); }
+	100% { transform: translate(2px, 1px) rotate(0deg); }
 }
 ul.team li span.hover {
 	-webkit-animation-name:tv;
@@ -1308,7 +1308,7 @@ ul.team li span.hover {
 	animation-iteration-count:infinite;
 	animation-timing-function:linear;
 }
-.slidecont .animate {
+.slidecont .animate, .video .animate {
 	-webkit-animation-name:icons;
 	-webkit-animation-duration:1.5s;
 	-webkit-transform-origin:50% 50%;
@@ -1360,30 +1360,57 @@ ul.team li span.hover {
 	margin:0 auto 33px;
 }
 .video h2 {
-	color:#04acbb;
-	font-size:18px;
-	line-height:22px;
+	position:relative;
+	color:#333333;
+	font-size:29px;
+	line-height:32px;
 	font-weight:normal;
     font-family:'Gnuolane', sans-serif;
 	text-transform:uppercase;
 	padding:0;
-	margin:0 0 24px;
+	margin:0 0 34px;
+}
+.video h2 span {
+	position:absolute;
+	left:-70px;
+	top:0;
+	display:block;
+	width:55px;
+	height:28px;
+	background:url('./images/video_h2_bg.png') no-repeat left top;
+}
+.video h2 span img {
+	position:absolute;
+	left:0;
+	top:0;
 }
 .video ul {
-	clear:both;
-	overflow:hidden;
+	position:relative;
 	padding:0 0 0 1px;
-	margin:0 0 21px;
+	margin:0 0 11px;
 	background:url('./images/video_line.png') repeat-y left;
 }
 .video ul li {
-	float:left;
+	display:inline-block;
 	width:220px;
 	padding:0 11px 0 42px;
+	margin:0 -3px 0 0;
 	background:url('./images/video_line.png') repeat-y right;
 }
-.video ul li div {
-	margin:-1px 0 17px;
+.video ul li div.information {
+	position:relative;
+	z-index:1;
+	margin:-1px 0 27px;
+}
+.video ul li div.iframe {
+	position:relative;
+	height:121px;
+}
+.video ul li div.iframe img {
+	display:none;
+	position:absolute;
+	left:-14px;
+	top:-31px;
 }
 .video ul li h6 {
 	color:#605f5f;
@@ -1417,6 +1444,8 @@ ul.team li span.hover {
 	text-decoration:underline;
 }
 .video h5 {
+	position:relative;
+	z-index:1;
 	font-size:12px;
 	line-height:15px;
 	font-weight:normal;
@@ -1426,4 +1455,57 @@ ul.team li span.hover {
 }
 .video h5 a {
 	color:#d30057;
+}
+.slider .info .social {
+	margin:42px 0 0;
+}
+.slider .info .social p {
+	color:#00abba;
+	font-size:16px;
+	line-height:20px;
+	font-style:italic;
+	margin:0 0 15px;
+}
+.slider .info .social ul {
+	padding:0 0 0 12px;
+	margin:0;
+	background:url('./images/slider_social_ul.png') repeat-y left;
+}
+.slider .info .social ul li {
+	font-size:14px;
+	line-height:18px;
+    font-family:'Gnuolane', sans-serif;
+	text-transform:uppercase;
+	margin:4px 0 0;
+}
+.slider .info .social ul li:first-child {
+	margin-top:0;
+}
+.slider .info .social ul li a {
+	position:relative;
+	display:inline-block;
+	color:#837972;
+	text-decoration:none;
+	vertical-align:top;
+	padding:4px 3px 2px 36px;
+}
+.slider .info .social ul li a:hover {
+	color:#00abba;
+}
+.slider .info .social ul li a span {
+	position:absolute;
+	left:0;
+	top:0;
+	overflow:hidden;
+	display:block;
+	width:25px;
+	height:24px;
+}
+.slider .info .social ul li a span img {
+	position:absolute;
+	left:0;
+	top:0;
+}
+.slider .info .social ul li a:hover span img {
+	top:-24px;
 }
