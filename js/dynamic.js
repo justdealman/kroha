@@ -65,12 +65,20 @@
 		}
 	);
 	
-	$('.hoverarea').hover(
+	/*$('.hoverarea').hover(
 		function() {
 			$('.march8n').addClass('animate');
 		},
 		function() {
 			$('.march8n').removeClass('animate');
+		}
+	);*/
+	$('.hoverarea').hover(
+		function() {
+			$('.may9n').addClass('animate');
+		},
+		function() {
+			$('.may9n').removeClass('animate');
 		}
 	);
 	/*

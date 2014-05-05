@@ -1400,11 +1400,12 @@ ul.team li span.hover {
 .video ul li div.information {
 	position:relative;
 	z-index:1;
-	margin:-1px 0 27px;
+	margin:-1px 0 57px;
 }
 .video ul li div.iframe {
 	position:relative;
 	height:121px;
+	margin:-30px 0 0;
 }
 .video ul li div.iframe img {
 	display:none;
@@ -1508,4 +1509,19 @@ ul.team li span.hover {
 }
 .slider .info .social ul li a:hover span img {
 	top:-24px;
+}
+
+/* 9 May 2014 */
+
+.may9 {
+	position:absolute;
+	left:50%;
+	top:100px;
+	margin-left:-78px;
+}
+.may9n {
+	position:absolute;
+	left:50%;
+	top:100px;
+	margin-left:-78px;
 }
